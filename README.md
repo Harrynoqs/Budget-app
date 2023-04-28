@@ -162,8 +162,8 @@ rspec spec/controllers/users_controller_spec.rb
 
 ### Deployment
 
-- I will deploy the project with [render], after which you can access the live version of the project in the Live Demo section. I   tried it several times following the process explained but it failed.The link for failed deployment is attached : https:onrender.com.
-- I tried deployment with netlify : The details is attached in the pull request.
+- I deployed the project with [render], but the deployment failed. The link for failed deployment is attached : https://budget-app-gvnq.onrender.com
+
 
 ### Video Presentation
 
