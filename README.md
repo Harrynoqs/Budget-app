@@ -142,7 +142,8 @@ to seed the testing database
 
 - Run 
 ```
-rspec
+rspec spec/controllers/users_controller_spec.rb
+
 ```
 
 - Install the required dependecies with `bundle install`

@@ -1,9 +1,11 @@
+# frozen_string_literal: true
+
 class CreateCategories < ActiveRecord::Migration[7.0]
   def change
     create_table :categories do |t|
       t.string :name
       t.text :icon
-      t.references :author, references: :authors, null: false, foreign_key: { to_table: :users}
+      t.references :author, references: :authors, null: false, foreign_key: { to_table: :users }
 
       t.timestamps
     end
