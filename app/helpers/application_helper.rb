@@ -3,9 +3,9 @@ module ApplicationHelper
   def nav_bar_content(controller_name, action_name)
     case "#{controller_name}##{action_name}"
     when 'categories#index'
-      'Categories of different kinds'
+      'Transactions'
     when 'expenses#index'
-      'Plan expenses following own budget'
+      'Expenses'
     when 'devise/sessions#new'
       'Login'
     when 'devise/registrations#new'
