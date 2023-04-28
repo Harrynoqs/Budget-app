@@ -2,7 +2,7 @@ Rails.application.routes.draw do
   devise_for :users
 
   resources :expense_categories
-  resources :categories, only: %i[index create new destroy] do
+  resources :categories, only: [:index, :create, :new, :destroy] do
     resources :expenses
   end
   resources :users
