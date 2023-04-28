@@ -6,8 +6,8 @@ RSpec.describe ExpensesController, type: :system do
       @category_one = Category.create(name: 'category_one', icon: 'icon_one')
       @category_two = Category.create(name: 'category_two', icon: 'icon_two')
 
-      @Expense_one = Expense.create(name: 'Expense_one', amount: 100)
-      @Expense_two = Expense.create(name: 'Expense_two', amount: 200)
+      @expense_one = Expense.create(name: 'Expense_one', amount: 100)
+      @expense_two = Expense.create(name: 'Expense_two', amount: 200)
 
       visit category_expenses_path(1)
     end
