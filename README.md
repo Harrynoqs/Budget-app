@@ -68,7 +68,7 @@ Bootstrap
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> None
+> https://budget-app-gvnq.onrender.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -167,7 +167,8 @@ rspec spec/controllers/users_controller_spec.rb
 
 ### Video Presentation
 
-- I made a loom video presentation . The link is : 
+- I made a loom video presentation . 
+The link is : https://www.loom.com/share/dc0aee37a2b64ebd97680681ac5f6f3b
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
