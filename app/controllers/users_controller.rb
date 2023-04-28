@@ -1,3 +1,5 @@
 class UsersController < ApplicationController
-  def index; end
-end
+    def index;
+      # code to retrieve and display all users goes here
+    end
+  end
