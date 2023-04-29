@@ -14,8 +14,9 @@
   - [Prerequisites](#prerequisites)
   - [Install](#install)
   - [Usage](#usage)
-  - [Run tests](#run-tests)
-  - [Deployment](#triangular_flag_on_post-deployment)
+  - [Run tests](#tests)
+  - [Deployment](#deployment)
+  - [Video presentation](#video-presentation)
 - [👥 Authors](#authors)
 - [🔭 Future Features](#future-features)
 - [🤝 Contributing](#contributing)
@@ -154,7 +155,7 @@ rspec spec/controllers/users_controller_spec.rb
 - With Ruby on Rails and PostgreSQL installed in your environment, you can run `rails server` to run the website.
 
 ### Tests
-
+# Tests <a name="tests"></a>
 - Run `rails db:seed RAILS_ENV=test` to seed the testing database
 - Run `rspec`
 
