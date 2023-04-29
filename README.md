@@ -68,7 +68,7 @@ Bootstrap
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> https://budgetapp-3wop.onrender.com
+> https://budgetapp-3wop.onrender.com/
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -162,7 +162,7 @@ rspec spec/controllers/users_controller_spec.rb
 ### Deployment
 
 - I deployed the project with [render], The link for failed the deployment is attached :
- https://budgetapp-3wop.onrender.com
+ https://budgetapp-3wop.onrender.com/
 
 
 ### Video Presentation
