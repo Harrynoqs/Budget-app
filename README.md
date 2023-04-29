@@ -68,7 +68,7 @@ Bootstrap
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-> https://budget-app-gvnq.onrender.com
+> https://budgetapp-3wop.onrender.com
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -77,6 +77,8 @@ Bootstrap
 ## 💻 Getting Started <a name="getting-started"></a>
 
 > To start and run this project
+
+https://github.com/Harrynoqs/Budget-app.git
 ```
 bundle install
 ```
@@ -159,7 +161,8 @@ rspec spec/controllers/users_controller_spec.rb
 
 ### Deployment
 
-- I deployed the project with [render], but the deployment failed. The link for failed deployment is attached : https://budget-app-gvnq.onrender.com
+- I deployed the project with [render], The link for failed the deployment is attached :
+ https://budgetapp-3wop.onrender.com
 
 
 ### Video Presentation
