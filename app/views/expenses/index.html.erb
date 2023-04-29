@@ -1,4 +1,3 @@
-<%= render partial: 'shared/navbar' %>
 <section class="container-fluid main-container">
 <div class="container-fluid transract-card">
 <h3>Total Amount: $<%= @total_expenses %></h3>
@@ -11,9 +10,10 @@
   </div>
   <% end %>
   </div>
-  <div class="fixed-bottom">
+  
+</section>
+<footer class="fixed-bottom">
     <div class="btn_container">
     <%= link_to "Add new Transaction", new_category_expense_path, class:"btn_size" %>
     </div>
-  </div>  
-</section>
+  </footer>

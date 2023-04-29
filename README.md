@@ -80,9 +80,6 @@ Bootstrap
 ```
 bundle install
 ```
-```
-ruby main.rb
-```
 
 To get a local copy up and running, follow these steps.
 

@@ -1,5 +1,4 @@
-<%= render partial: 'shared/navbar' %>
-<main class="container-fluid main-container">
+<section class="container-fluid main-container">
 <div class="groups_container">
 <% @categories.each do |category| %>
   <div class="container-fluid catergory-card">
@@ -20,9 +19,10 @@
   </div>
 <% end %>
 </div>
-<div class="fixed-bottom">
-  <div class="btn_container">
+
+</section>
+
+<div class="btn_container">
   <%= link_to "Add new Category", new_category_path, class:"btn_size" %>
-  </div>
-</div>  
-</main>
+</div>
+

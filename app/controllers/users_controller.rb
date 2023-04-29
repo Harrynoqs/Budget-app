@@ -1,5 +1,10 @@
 class UsersController < ApplicationController
+  skip_before_action :authenticate_user!
   def index
-    # code to retrieve and display all users goes here
+    if signed_in?
+      redirect_to categories_path
+    else
+      render :index
+    end
   end
 end
