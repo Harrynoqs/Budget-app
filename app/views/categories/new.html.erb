@@ -1,0 +1,17 @@
+<%= render partial: 'shared/details_nav' %>
+<div class="container form_styles">
+<h1> Create a new category</h1>
+
+<%= form_with model: @category, url: categories_path do |f| %>
+  <div>
+  <%= f.label :name %><br />
+  <%= f.text_field :name %>
+  </div>
+  <div>
+  <%= f.label :icon %><br />
+  <%= f.text_field :icon %>
+  </div>
+  <%= f.hidden_field :author_id, value: current_user.id if current_user.present? %>
+  <%= f.submit :submit %><br />
+  <% end %>
+</div>
