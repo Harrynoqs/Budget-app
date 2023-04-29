@@ -51,7 +51,7 @@ img.back_button {
 
 main,
 section {
-  background-color: rgb(245, 244, 244);  
+  background-color: rgb(245, 244, 244);
 }
 
 .catergory-card {
@@ -94,7 +94,6 @@ button.navbar-toggler,
 }
 
 a.btn_size {
-
   font-family: 'Proxima Nova light', sans-serif;
   color: white;
   background-color: #5fb523;
@@ -127,7 +126,7 @@ a.btn_size:active {
 }
 
 .d-flexs {
-    display: flex;
+  display: flex;
 }
 
 .transracts_container {
@@ -212,5 +211,5 @@ input#user_remember_me {
 }
 
 .main_body {
-    height: 100vh;    
+  height: 100vh;
 }
